@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER MeteorHacks Pvt Ltd.
+MAINTAINER MeteorWorks Pvt Ltd.
 
 ENV METEORD_DIR /opt/meteord
 COPY scripts $METEORD_DIR

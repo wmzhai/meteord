@@ -26,7 +26,7 @@ if [[ $REBULD_NPM_MODULES ]]; then
     bash /opt/meteord/rebuild_npm_modules.sh
     cd ../../
   else
-    echo "=> Use meteorhacks/meteord:bin-build for binary bulding."
+    echo "=> Use meteorworks/meteord:bin-build for binary bulding."
     exit 1
   fi
 fi
