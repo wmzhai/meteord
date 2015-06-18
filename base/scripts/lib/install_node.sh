@@ -7,8 +7,9 @@ NODE_ARCH=x64
 
 NODE_DIST=node-v${NODE_VERSION}-linux-${NODE_ARCH}
 
+cp $METEORD_DIR/lib/node-v0.10.36-linux-x64.tar.gz /tmp
 cd /tmp
-curl -O -L http://nodejs.org/dist/v${NODE_VERSION}/${NODE_DIST}.tar.gz
+#curl -O -L http://nodejs.org/dist/v${NODE_VERSION}/${NODE_DIST}.tar.gz
 tar xvzf ${NODE_DIST}.tar.gz
 rm -rf /opt/nodejs
 mv ${NODE_DIST} /opt/nodejs
